@@ -1,6 +1,6 @@
 # Assignment 5 — JavaScript Basics
 
-Student: **Mirzatayev Bagdaulry**  
+Student: **Mirzatayev Bagdaulet**  
 Group: **SE-2528**
 
 A four-page website demonstrating JavaScript fundamentals, DOM manipulation and events. Built with plain HTML, CSS and JavaScript, with no frameworks or external dependencies.
@@ -48,6 +48,8 @@ Edit the name and group in `student.js` and the first lines of this README if co
 - Tasks are stored only in an array. Reloading or leaving the page clears them; there is no database or local storage.
 
 ## Publication
+
+Live website: https://baken17.github.io/assignment5-frontend/
 
 Repository: https://github.com/Baken17/assignment5-frontend
 
