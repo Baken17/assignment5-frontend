@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Assignment 5: JavaScript fundamentals, DOM manipulation and events.">
+  <title>Small scripts. Big possibilities. · JavaScript Lab</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="student.js" defer></script>
+  <script src="basics.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="topbar"><a class="brand" href="index.html"><span class="logo">JS</span> JavaScript Lab<span class="assignment"> / Assignment 05</span></a><span class="course">WEB TECHNOLOGIES</span></header>
+<div class="layout">
+<aside><p class="eyebrow">THE WORKSPACE</p><nav aria-label="Assignment parts"><a href="index.html" aria-current="page"><span>01</span>JavaScript basics</a><a href="dom.html" ><span>02</span>DOM manipulation</a><a href="events.html" ><span>03</span>Events & calculator</a><a href="todo.html" ><span>04</span>To-do app</a></nav><div class="student"><span class="avatar">MB</span><div><strong data-student-name></strong><span data-student-group></span></div></div></aside>
+<main id="main"><div class="page-heading"><p class="eyebrow">ASSIGNMENT 05 <span>/</span> PART 01</p><h1>Small scripts. Big possibilities.</h1><p>Start with the essentials: values, operations and your first JavaScript message.</p></div>
+<section class="intro-banner"><div><span class="pill">PART 01 · INTRODUCTION</span><h2>A little code,<br>a more interactive web.</h2><p>Explore each part using the navigation.<br>Every example is ready to try.</p></div><div class="code-art" aria-hidden="true"><span>// It starts with a value.</span><br><b>const</b> curiosity = <em>true</em>;<br><br><b>if</b> (curiosity) {<br>&nbsp; learn();<br>&nbsp; build();<br>}</div></section>
+<div class="two-col">
+<section class="card"><div class="card-heading"><span class="task">TASK 00</span><span class="tag">First script</span></div><h2>Hello, JavaScript.</h2><p>The external script prints the student’s name and group in the console and opens a welcome alert.</p><div class="identity"><strong data-student-name></strong><span data-student-group></span></div><button id="hello-button" type="button">Show welcome alert <span aria-hidden="true">↗</span></button><p class="hint">The alert also appears when this page loads.</p></section>
+<section class="card"><div class="card-heading"><span class="task">TASK 01</span><span class="tag">Variables & operators</span></div><h2>Meet your variables.</h2><p>String, number and boolean values, followed by arithmetic and string concatenation.</p><pre class="snippet"><code>const language = "JavaScript";
+const a = 12;
+const b = 4;
+const isLearning = true;</code></pre><button id="run-button" type="button" class="secondary">Run examples again</button></section>
+</div>
+<section class="card console-card"><div class="card-heading"><h2>Script output</h2><span class="console-dot">Console mirror</span></div><p class="hint">These same results are printed with console.log(). Open your browser’s Developer Tools → Console to see them.</p><pre id="console-output" class="console" aria-live="polite"></pre></section>
+<a class="next" href="dom.html">Next up: manipulate the DOM <span aria-hidden="true">→</span></a>
+<footer>Built with HTML, CSS & JavaScript <span>Learn by doing.</span></footer></main>
+</div>
+</body>
+</html>

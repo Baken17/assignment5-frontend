@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Assignment 5: JavaScript fundamentals, DOM manipulation and events.">
+  <title>Less remembering. More doing. · JavaScript Lab</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="student.js" defer></script>
+  <script src="todo.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="topbar"><a class="brand" href="index.html"><span class="logo">JS</span> JavaScript Lab<span class="assignment"> / Assignment 05</span></a><span class="course">WEB TECHNOLOGIES</span></header>
+<div class="layout">
+<aside><p class="eyebrow">THE WORKSPACE</p><nav aria-label="Assignment parts"><a href="index.html" ><span>01</span>JavaScript basics</a><a href="dom.html" ><span>02</span>DOM manipulation</a><a href="events.html" ><span>03</span>Events & calculator</a><a href="todo.html" aria-current="page"><span>04</span>To-do app</a></nav><div class="student"><span class="avatar">MB</span><div><strong data-student-name></strong><span data-student-group></span></div></div></aside>
+<main id="main"><div class="page-heading"><p class="eyebrow">ASSIGNMENT 05 <span>/</span> PART 04</p><h1>Less remembering. More doing.</h1><p>Bring it all together with a small, interactive to-do app.</p></div>
+<div class="todo-top"><span class="pill">TASK 08 · MINI PROJECT</span><span class="tag">In-memory array</span></div>
+<div class="todo-layout"><section class="card"><div class="card-heading"><h2>Your tasks</h2><span id="task-count" class="tag" role="status">0 of 0 complete</span></div><div id="todo-empty" class="todo-empty"><span class="empty-icon" aria-hidden="true">✓</span><h3>A clear page, a fresh start.</h3><p>Add your first task using the form.</p></div><ul id="todo-list" class="todo-list" aria-label="Your tasks"></ul><p class="hint">Check a task to mark it complete. Uncheck it to bring it back.</p></section>
+<section class="card"><span class="task">MAKE A LITTLE PROGRESS</span><h2>Add a new task</h2><form id="todo-form" novalidate><label for="task-title">Task title <span class="required">*</span></label><input id="task-title" type="text" placeholder="What would you like to do?" maxlength="120" required aria-describedby="todo-feedback"><label for="task-description">Description <span class="optional">optional</span></label><textarea id="task-description" rows="4" maxlength="500" placeholder="Add a few details…"></textarea><button type="submit" class="full-width">Add Task <span aria-hidden="true">+</span></button><p id="todo-feedback" class="feedback" role="status"></p></form></section></div>
+<p class="session-note">Session only: tasks live in a JavaScript array. Reloading this page clears the list.</p>
+<footer>Built with HTML, CSS & JavaScript <span>Learn by doing.</span></footer></main>
+</div>
+</body>
+</html>

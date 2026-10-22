@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Assignment 5: JavaScript fundamentals, DOM manipulation and events.">
+  <title>Every interaction is an event. · JavaScript Lab</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="student.js" defer></script>
+  <script src="events.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="topbar"><a class="brand" href="index.html"><span class="logo">JS</span> JavaScript Lab<span class="assignment"> / Assignment 05</span></a><span class="course">WEB TECHNOLOGIES</span></header>
+<div class="layout">
+<aside><p class="eyebrow">THE WORKSPACE</p><nav aria-label="Assignment parts"><a href="index.html" ><span>01</span>JavaScript basics</a><a href="dom.html" ><span>02</span>DOM manipulation</a><a href="events.html" aria-current="page"><span>03</span>Events & calculator</a><a href="todo.html" ><span>04</span>To-do app</a></nav><div class="student"><span class="avatar">MB</span><div><strong data-student-name></strong><span data-student-group></span></div></div></aside>
+<main id="main"><div class="page-heading"><p class="eyebrow">ASSIGNMENT 05 <span>/</span> PART 03</p><h1>Every interaction is an event.</h1><p>Move your mouse, type something and put a few numbers to work.</p></div>
+<div class="two-col">
+<section class="card"><div class="card-heading"><span class="task">TASK 05</span><span class="tag">Mouse events</span></div><h2>Say hello with a hover.</h2><p>The box changes color on mouseover and returns to its original color on mouseout.</p><div id="hover-box" class="hover-box" tabindex="0">Move your mouse here ↗</div><p class="hint">You can also focus the box with the Tab key.</p></section>
+<section class="card"><div class="card-heading"><span class="task">TASK 06</span><span class="tag">Keyboard events</span></div><h2>Your words, in real time.</h2><label for="live-input">Type a message</label><input id="live-input" type="text" placeholder="Start typing…" autocomplete="off"><p class="hint">The keyup event updates the text below. Paste and mobile input are supported too.</p><div class="live-output"><span class="eyebrow">LIVE PREVIEW</span><p id="live-value" aria-live="polite">Your message will appear here.</p></div></section>
+</div>
+<section class="card calculator"><div class="card-heading"><span class="task">TASK 07</span><span class="tag">Calculator</span></div><h2>A little number crunching.</h2><p>Choose an operation and calculate the result.</p><form id="calculator-form" novalidate><div class="calc-fields"><div><label for="first-number">First number</label><input id="first-number" type="number" step="any" placeholder="e.g. 12" required></div><div><label for="operation">Operation</label><select id="operation"><option value="add">+ Add</option><option value="subtract">− Subtract</option><option value="multiply">× Multiply</option><option value="divide">÷ Divide</option></select></div><div><label for="second-number">Second number</label><input id="second-number" type="number" step="any" placeholder="e.g. 4" required></div></div><div class="calc-bottom"><button type="submit">Calculate <span aria-hidden="true">=</span></button><div><span class="eyebrow">RESULT</span><output id="calculation-result" for="first-number second-number operation" aria-live="polite">—</output></div></div></form></section>
+<a class="next" href="todo.html">Next up: your interactive to-do list <span aria-hidden="true">→</span></a>
+<footer>Built with HTML, CSS & JavaScript <span>Learn by doing.</span></footer></main>
+</div>
+</body>
+</html>

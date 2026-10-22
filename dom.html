@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Assignment 5: JavaScript fundamentals, DOM manipulation and events.">
+  <title>Make the page your own. · JavaScript Lab</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="student.js" defer></script>
+  <script src="dom.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="topbar"><a class="brand" href="index.html"><span class="logo">JS</span> JavaScript Lab<span class="assignment"> / Assignment 05</span></a><span class="course">WEB TECHNOLOGIES</span></header>
+<div class="layout">
+<aside><p class="eyebrow">THE WORKSPACE</p><nav aria-label="Assignment parts"><a href="index.html" ><span>01</span>JavaScript basics</a><a href="dom.html" aria-current="page"><span>02</span>DOM manipulation</a><a href="events.html" ><span>03</span>Events & calculator</a><a href="todo.html" ><span>04</span>To-do app</a></nav><div class="student"><span class="avatar">MB</span><div><strong data-student-name></strong><span data-student-group></span></div></div></aside>
+<main id="main"><div class="page-heading"><p class="eyebrow">ASSIGNMENT 05 <span>/</span> PART 02</p><h1>Make the page your own.</h1><p>Change content, update styles and create new elements with the DOM.</p></div>
+<div class="two-col">
+<section class="card"><div class="card-heading"><span class="task">TASK 02</span><span class="tag">Content</span></div><h2>A new point of view.</h2><p>Click the button to replace the paragraph’s text.</p><div class="demo"><p id="changing-text" aria-live="polite">This is the original paragraph. A click can change it.</p></div><button type="button" id="change-text">Change text</button></section>
+<section class="card"><div class="card-heading"><span class="task">TASK 03</span><span class="tag">Styles</span></div><h2>Give it a different look.</h2><p>Cycle the background color or switch between two font sizes.</p><div class="demo style-box" id="style-box">A fresh style, one click away.</div><div class="actions"><button type="button" id="change-color">Change background</button><button type="button" class="secondary" id="change-size">Change font size</button></div></section>
+</div>
+<section class="card"><div class="card-heading"><span class="task">TASK 04</span><span class="tag">Elements</span></div><h2>Build a list from scratch.</h2><p>Add a new list item or remove the last one. Start with an empty list.</p><div class="list-demo"><p id="items-empty" class="empty">Your list is empty. Add the first item.</p><ul id="item-list"></ul></div><div class="actions"><button type="button" id="add-item">Add Item</button><button type="button" class="secondary" id="remove-item" disabled>Remove Item</button><span id="item-count" class="hint" role="status">0 items</span></div></section>
+<a class="next" href="events.html">Next up: respond to events <span aria-hidden="true">→</span></a>
+<footer>Built with HTML, CSS & JavaScript <span>Learn by doing.</span></footer></main>
+</div>
+</body>
+</html>
